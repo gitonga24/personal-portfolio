@@ -1,0 +1,38 @@
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+section {
+    margin: 1em 0;
+    padding-top: 3em;
+    min-height: 20em;
+}
+
+nav {
+    margin-left: 0.5em;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+nav a {
+    padding: 0.5em;
+}
+
+#aboutMe section img {
+    width: 250px;
+    height: 350px;
+}
+
+footer {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    padding: 1em 0;
+    text-align: left;
+    align-self: center;
+}
