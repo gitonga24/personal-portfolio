@@ -1,0 +1,52 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    Line-height: 1.618em;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: auto;
+    padding: .1rem;
+}
+
+html {
+    font-size: 16px;
+    margin-top: 3em;
+    padding: 3em;
+}
+
+.main {
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 5px rgba(16, 18, 19, 0.664);
+    max-width: auto;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#projects,
+h2 {
+    text-align: center;
+}
+
+#expSection {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-around;
+    margin: 2rem auto;
+    padding: 10px;
+}
+
+.main p {
+    padding: 1em;
+}
+
+.main #contact p {
+    text-align: center;
+}

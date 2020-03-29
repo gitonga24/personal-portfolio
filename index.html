@@ -1,77 +1,171 @@
 <!DOCTYPE HTML>
 
+
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ephraim Gitonga Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="/layout.css">
 
 </head>
 
 <body>
 
-    <header>
-        <h1> Ephraim Gitonga Portfolio</h1>
+    <header class="header">
+        <span>  <h1> Ephraim Gitonga Portfolio </h1></span>
     </header>
 
+    <div class="grid-item mugShot">
+        <div class="pic-text">
+            <h2 style="font-size: 50px"></h2>
+            <p>
+                <EM> </EM>
+            </p>
+        </div>
+    </div>
 
 
-    <main>
 
-        <nav>
-            <a href="#aboutMe">About me</a>
-            <a href="#projectsCompleted">Projects Completed </a>
-        </nav>
+    <main class="main">
 
         <section id="aboutMe">
             <h3>About Me </h3>
-            <img src="./images/profilePhoto.jpg" style="width:250px;height:300px;">
+
             <p> Am a student at We Can Code It bootcamp. I have a bachelors in Computer Science with a minor in Math. I work at JP Morgan Chase & Co as a business operations analyst. Am a partner in a group of business intelligence and automation. I love
                 programming and completing tasks that involve analytical thinking. I am a self-starter with a business mindset of automating manual processes and improving efficiency in fast paced production environments. </p>
-            <p>Contact:</p>
-            <ul>
-                <li>gitonga124@gmail.com</li>
-                <li>(614)256-1407</li>
-                <li><a href=" https://www.linkedin.com/in/ephraim-gitonga-6599a5166/ ">linkedin</a></li>
-                <li><a href="https://github.com/gitonga24 ">github</a></li>
-            </ul>
-            <p>Skills:</p>
-            <ul>
-                <li>Database management</li>
-                <li>SQL</li>
-                <li>Oracle</li>
-                <li>Java/JavaScript</li>
-            </ul>
+
+            <p> My Skill set includes: Database management, SQL, Oracle, Java</p>
+
         </section>
 
-        <section id="projectsCompleted">
-            <h3>Projects Completed </h3>
+        <section id="myProjects">
+            <h2>Sample Projects Completed </h2>
 
-            <article>
-                <h4>Fortune Teller:</h4>
-                <p>This game interacts with the user, first by asking a series of personal questions. It in response make a prediction of the user's future based on the responses provided. </p>
-                <img src="./images/fortuneTeller.jpg " style="width:450px;height:300px;">
-            </article>
-            <article>
-                <h4>Guessing Game</h4>
-                <img src="./images/GuessingGame.jpg " style="width:450px;height:300px;">
-                <p>This program simulates a game that interacts with the user by asking to user to enter a guess number between 1 and 10. The program generates randomized number to check against the userâ€™s enter for a match or miss. </p>
-            </article>
-            <article>
-                <h4>Virtual Pets Amok</h4>
-                <img src="./images/virtualPetShelter.jpg " style="width:450px;height:300px;">
-                <p>This is a simulated program this interacts with a user by providing a list of option that the user can select to interact with the animals in the shelter eg. Feed, water, play with animals. </p>
-            </article>
+
+            <div id="projects">
+                <article>
+                    <h4>Fresh Faces Beauty:</h4>
+                    <p>Created an application that manages the inventory of a beauty store. The application accepts skin care inventory along with respective blends. The application is user interactive that allows owner to enter inventory. The application
+                        tracks all the inventory available at the store. </p>
+                    <p> <b>Skills utilized: </b> Spring Initializer, Thyme leaf, Spring MVC Framework, J Unit TDD, JPA wiring, OOP.</p>
+                    <p><b>Git Hub: </b><a href="https://github.com/gitonga24/freshfaces ">
+                        https://github.com/gitonga24/freshfaces</a> </p>
+
+                    <img src="./images/FreshFacesCode.jpg" style="width:800px;height: 800px;">
+                </article>
+
+
+
+                <article>
+                    <h4>Virtual Pets Amok:</h4>
+
+                    <p>Created a Console Application to control behavior of pets in a shelter based on user prompts. Used TDD environment, to modify a single pet and all (Organic and Robotic) pets’ behavior. xxxxxxxxxxxxxxxx</p>
+                    <p> <b>Technologies used:</b> Iterables, Collections, Interfaces, Extensions, Abstraction, Polymorphism, Inheritance and Encapsulation.</p>
+                    <p><b>Git Hub: </b><a href="https://github.com/gitonga24/virtual-pets-amok">
+                        https://github.com/gitonga24/virtual-pets-amok</a> </p>
+                    <img src="./images/VirtualPetAmok.jpg " style="width:800px;height: 800px;">
+                </article>
+
+            </div>
+
+
+
+            <div id="projects">
+                <article>
+                    <h4>Virtual Pet Shelter:</h4>
+
+                    <p>Created a Console Application to control behavior of pets in a shelter based on user prompts. Used TDD environment, to modify a single pet and all pets’ behavior under certain circumstances. The application handled adopting, admitting
+                        and changes in the behavior of pets in a Pet Shelter. </p>
+                    <p> <b>Technologies used:</b> Loops, Branching statements, Collections, Iterables and Lists.</p>
+                    <p><b>Git Hub: </b><a href="https://github.com/gitonga24/virtual-pet-shelter">
+                        https://github.com/gitonga24/virtual-pet-shelter</a> </p>
+                    <img src="./images/virtualPetShelter.jpg " style="width:800px;height: 800px;">
+                </article>
+
+            </div>
         </section>
 
 
+
+        <!--Experience Section-->
+        <header id="expHdr99">
+            <h2>Technical Experience</h2>
+        </header>
+
+        <section id="expBody">
+            <section id="expSection">
+                <article class="expArticle">
+                    <div id="div1">
+                        <h2>Business Operations Analyst</h2>
+                        <p>
+                            <ul>
+
+                            </ul>
+
+                        </p>
+                    </div>
+                </article>
+                <article class="expArticle99">
+                    <div id="div2">
+                        <h2>2nd work experience: </h2>
+                        <p>
+                            <ul>
+
+                            </ul>
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+
+
+        <!--Image Corousel:-->
+        <section class="image-carousel">
+            <h2>My Projects at a Glance </h2>
+            <img id="slide">
+        </section>
+        <footer id="expFtr">
+            <h4>Skills: Java, Spring MVC, HTML5,...</h4>
+        </footer>
+
+
+
+
+
+        <section id="contact">
+
+
+            <p>
+                ephraim.g.gitonga@chase.com &diams; (614)256-1407 &diams;
+
+                <a href=" https://www.linkedin.com/in/ephraim-gitonga-6599a5166/ ">linkedin</a> &diams;
+                <a href="https://github.com/gitonga24 ">github</a>
+
+            </p>
+
+        </section>
 
 
 
 
     </main>
 
-    <footer>
-        <small>&copy; We Can Code It Bootcamp</small>
-    </footer>
+    <nav>
+        <a href="#aboutMe">Skill Set</a>
+        <a href="#myProjects">Projects Completed </a>
+        <a href="#contact"> Contact Information</a>
+    </nav>
+
+    <link rel="stylesheet" type="text/css" href="./layout.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="./script.js"></script>
+
 
 </body>
 
